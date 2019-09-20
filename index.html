@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="text/javascript" src="./Js/javascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="./CSS/normalize.css">
+        <link rel="stylesheet" type="text/css" href="./CSS/grid(1).css">
+        <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title>My Personal Website</title>
+    </head>
+<div id = "main">
+    <body>
+      <header id = "home">
+     
+        <div class="welcome-text-box">
+            <h1>Hi there, I'm Max </h1><br>
+        </div>
+        <div id ="mySidenav" class ="sidenav">      
+      <button onclick = "closeNav()">&times;</button>
+            <a class="btn" href="#about-me">About Me</a><br>
+            <a class="btn" href="#skills">Skills</a><br>
+            <a class="btn" href="#my-work">My Work</a><br>
+            <a class="btn" href="#contact">Contact Me</a><br>
+            <a class="btn" href="#home">Home</a>
+        </div>
+        <span class = navigation-btn onclick="openNav()">&#9776</span>
+
+      </header>
+        <section class="section-features">
+            <div class="about-text">
+                <h2 id="about-me">About Me</h2>
+                <img class="photo" src="./Images/New Image.jpg" href="Image of the author, Masixole Menqe">
+                <p class="row p-about"> "I became a self taught front-end web developer. I started learning HTML5 and CSS3 with Udemy from February 2019. I then upskilled myself with more basics and JavaScript with freecodecamp. I am now at umuzi persuing a career in front-end development to make an impact in the digital space. I am looking to learn web design with UX while im here at umuzi. I aspire to become a well equiped user driven front-end developer in the near future."</p>
+             </div>
+        </section>
+        <section class="section-features skills">
+                <div class="row">
+                    <h2 id="skills">Skills</h2>
+                    <p class="row">
+                        I use front-end techologies to create my artwork. These are all the languages I am good at at the moment as I am upskilling to new technologies in order to keep up with the ever changing digital space.
+                    </p><br>
+                </div>
+                <div class="row">
+                <div class="column"><img class="icons" style="width: 50%" src="./Images/icon1.png"></div>
+                <div class="column"><img class="icons" style="width: 50%" src="./Images/javascript_logo.png"></div>
+                <div class="column"><img class="icons" style="width: 50%" src="./Images/icon2.png"></div>
+                </div>
+            </section><br>
+        <section class="section-features other">
+                <div class="row">
+                        <h2 id="my-work" >My Work</h2>
+                        <p>In order to see some of the work that I have done so far please refer to my Github and linkedin profile by clicking on the icons below.</p>
+                        <div class="columns"><a href="https://www.linkedin.com/in/masixole-menqe-b2379118a/" target="blank"><img class="icons" style="width: 35%" src="./Images/linkedIn-logo.png"></a></div>
+                        <div class="columns"><a href="https://github.com/MasixoleMax" target="blank"><img class="icons" style="width: 35%" src="./Images/github-logo.png"></a></div> 
+                        <a href="https://drive.google.com/file/d/1ujLDL_G05PLdJSqssVFQODkf07yfc4YM/view?usp=sharing" target="blank" download="CV-Masixole-Menqe.pdf"><button class="download-btn" style="width:90%; height:300%; font-size: 20px; color:blue ; background-color: rgb(199, 89, 11);"><i class="fa fa-download"></i> View and download My CV from google drive (.pdf)</button></a>
+
+                </div>
+        </section>
+      <section class="section-features other">
+                <div class="row">
+                        <h2 id="contact">Contact Me</h2>
+                        <p>Hey there! It Seems like you want to get in-touch, right? Below are my contact details, now lets communicate because I just cant wait to hear from you!</p>
+                           <br>
+
+                </div>
+         </section>
+
+    </body>
+    <footer class="footer row">
+        <div>
+            <div class="rows2">
+                <ul>
+                    <li><i class="fas fa-envelope"> masixole.menqe@umuzi.org</i></li>
+                    <li><i class="fas fa-phone"> 078 6760 292</i></li>
+                        <li><i class="fas fa-map-marker-alt"> Johannesburg</i></li>
+                    </ul><br>
+                </div>
+
+                <div class="list">
+                    <p style="text-align: center; color:blue" >
+                            Masixole Menqe&trade; &nbsp;&copy;&nbsp; 2019&nbsp;-All rights reserved.
+                        </p>
+                    </div>
+        </div>
+
+    </footer>
+</div>
+</html>
